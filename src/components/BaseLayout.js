@@ -25,8 +25,8 @@ export default function BaseLayout() {
                <Routes>
                   <Route exact path={'/'} element={<Home />} />
                   <Route exact path={'/about'} element={<About />} />
-                  {/*<Route exact path={'/portfolio'} element={<Portfolio />} />*/}
-                  <Route exact path={'/portfolio'} element={<h1 style={{ textAlign: "center" }}>Im working on this page</h1>} />
+                  {/*<Route exact path={'/projects'} element={<Portfolio />} />*/}
+                  <Route exact path={'/projects'} element={<h1 style={{ width:"100%", lineHeight:"30vh", textAlign: "center", marginTop:"3rem" }}>Im currently working on this page</h1>} />
                </Routes>
             </Grid>
          </Grid>
