@@ -76,7 +76,7 @@ export const info = {
     bio: "Hello! I'm Mouayed. I'm a computer science student at ESTIN, I believe artificial intelligence wont rule us all one day. You should hire me!",
     skills:
     {
-        proficientWith: ['javascript', 'react', "express", "mongoDB", "redux", 'python', 'java', "kotlin", "react native", "linux", "heroku & netlify", "brainJS", 'github', 'git', 'bootstrap', 'html5', 'css3', 'mern stack', 'flutter', "materialUI", "MantineUI", "chakraUI", 'firebase', 'supabase'],
+        proficientWith: ['javascript', 'react', "express", "mongoDB", "redux", 'python', 'java', "kotlin", "react native", "linux", "heroku & netlify", "brainJS", 'github', 'git', 'bootstrap', 'html5', 'css3', 'scss', 'mern stack', 'flutter', "materialUI", "MantineUI", "chakraUI", 'firebase', 'supabase'],
         exposedTo: ['machine learning', "networking"]
     }
     ,
