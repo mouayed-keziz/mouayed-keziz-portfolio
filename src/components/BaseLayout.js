@@ -3,12 +3,12 @@ import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
-//import Portfolio from "./portfolio/Portfolio";
+import Portfolio from "./portfolio/Portfolio";
 import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 
 export default function BaseLayout() {
-   let [darkMode, setDarkMode] = useState(false);
+   let [darkMode, setDarkMode] = useState(true);
 
    function handleClick() {
       setDarkMode(!darkMode);
@@ -25,8 +25,8 @@ export default function BaseLayout() {
                <Routes>
                   <Route exact path={'/'} element={<Home />} />
                   <Route exact path={'/about'} element={<About />} />
-                  {/*<Route exact path={'/projects'} element={<Portfolio />} />*/}
-                  <Route exact path={'/projects'} element={<h1 style={{ width:"100%", lineHeight:"30vh", textAlign: "center", marginTop:"3rem" }}>Im currently working on this page</h1>} />
+                  <Route exact path={'/projects'} element={<Portfolio />} />
+                  {/*<Route exact path={'/projects'} element={<h1 style={{ width:"100%", lineHeight:"30vh", textAlign: "center", marginTop:"3rem" }}>Im currently working on this page</h1>} />*/}
                </Routes>
             </Grid>
          </Grid>

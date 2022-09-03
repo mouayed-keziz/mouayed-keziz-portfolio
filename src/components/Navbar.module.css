@@ -1,0 +1,20 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+nav {
+  transition: all 250ms ease;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: all 250ms ease;
+}
+li:hover {
+  transform: translateY(-3px);
+  transition: all 250ms ease;
+}/*# sourceMappingURL=Navbar.module.css.map */

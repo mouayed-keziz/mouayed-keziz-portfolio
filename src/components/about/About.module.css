@@ -1,0 +1,26 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.pink {
+  color: #CA6BE6;
+}
+
+.green {
+  color: #27C93F;
+}
+
+.skills {
+  -moz-columns: 1;
+       columns: 1;
+}
+@media only screen and (min-width: 940px) {
+  .skills {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+.skills li {
+  margin: 0;
+  line-height: 1.75;
+}/*# sourceMappingURL=About.module.css.map */

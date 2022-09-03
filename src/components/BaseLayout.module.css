@@ -1,0 +1,29 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  color: #1f1f1f;
+}
+
+.dark {
+  background-color: #1f1f1f;
+  color: #f8f8f8;
+  transition: all 400ms;
+}
+.dark a, .dark i, .dark li {
+  color: #f8f8f8;
+  transition: color 400ms;
+}
+.dark a:visited {
+  color: #f8f8f8;
+}
+.dark footer {
+  color: #f8f8f8;
+}
+
+.light {
+  background-color: #f8f8f8;
+  color: #1f1f1f;
+  transition: all 400ms;
+}/*# sourceMappingURL=BaseLayout.module.css.map */

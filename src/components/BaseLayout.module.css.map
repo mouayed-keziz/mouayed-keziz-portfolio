@@ -1,0 +1,1 @@
+{"version":3,"sources":["../variables.modules.scss","BaseLayout.module.css","BaseLayout.module.scss"],"names":[],"mappings":"AAWA;EACE,4CAAA;ACVF;;ACAA;EACE,cAAA;ADGF;;ACAA;EACE,yBFJK;EEKL,cFNM;EEON,qBAAA;ADGF;ACDE;EACE,cFVI;EEWJ,uBAAA;ADGJ;ACAE;EACE,cFfI;ACiBR;ACCE;EACE,cFnBI;ACoBR;;ACGA;EACE,yBFxBM;EEyBN,cFxBK;EEyBL,qBAAA;ADAF","file":"BaseLayout.module.css"}

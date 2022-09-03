@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 @import "./variables.modules";
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Cabin', Helvetica, sans-serif;
     font-size: 1.5vh;
     color: $dark;
     background-color: $white;

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: "Cabin", Helvetica, sans-serif;
+  font-size: 1.5vh;
+  color: #1f1f1f;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+li {
+  color: #1f1f1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}/*# sourceMappingURL=App.module.css.map */

@@ -1,0 +1,56 @@
+.shadowed {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+i {
+  padding-left: 0.5rem;
+}
+i.red {
+  color: #FF6057;
+}
+i.amber {
+  color: #FFBD2E;
+}
+i.green {
+  color: #27C93F;
+}
+
+.terminal p, .terminal li {
+  margin: 1rem 0;
+  color: #f8f8f8;
+}
+.terminal a, .terminal a:visited {
+  -webkit-animation: changeColors 3s infinite;
+          animation: changeColors 3s infinite;
+  font-weight: bold;
+}
+
+@-webkit-keyframes changeColors {
+  0% {
+    color: #00a47f;
+  }
+  33.3% {
+    color: #1d91e3;
+  }
+  66.6% {
+    color: #d419fe;
+  }
+  100% {
+    color: #00a47f;
+  }
+}
+
+@keyframes changeColors {
+  0% {
+    color: #00a47f;
+  }
+  33.3% {
+    color: #1d91e3;
+  }
+  66.6% {
+    color: #d419fe;
+  }
+  100% {
+    color: #00a47f;
+  }
+}/*# sourceMappingURL=Terminal.module.css.map */

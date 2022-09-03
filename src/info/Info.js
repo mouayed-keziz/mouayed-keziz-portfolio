@@ -1,9 +1,10 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/elmochat.png"
+import mock2 from "../img/pcprodz.png"
+import mock3 from "../img/rocdz.png"
+import mock4 from "../img/firestore.png"
+import mock5 from "../img/auth.png"
+import mock6 from "../img/portfolio.png"
 
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -68,8 +69,8 @@ export const info = {
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'podcasts',
+            emoji: '🎙️'
         },
         {
             label: 'music',
@@ -83,34 +84,39 @@ export const info = {
     ],
     portfolio: [
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "ELMO-CHAT",
+            live: "https://elmo-chat-web.web.app/",
+            source: "https://github.com/mouayed-keziz/ElMOU-CHAT",
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "PCPRODZ",
+            live: "http://pcprodz.herokuapp.com/",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "ROC-DZ",
+            live: "roc-dz.netlify.app",
+            source: "https://github.com/mouayed-keziz/Ecommerce-website",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Firebase RealtimeDB Template",
+            live: "https://react-and-firebase-template.web.app/",
+            source: "https://github.com/mouayed-keziz/firebase-quickstart-react",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Firebase Auth Template",
+            live: "https://fir-auth-react-e955e.web.app/",
+            source: "https://github.com/mouayed-keziz/firebase-auth-quickstart-react",
             image: mock5
+        },
+        {
+            title: "This Portfolio",
+            live: "https://mouayed-keziz.web.app/",
+            source: "https://github.com/mouayed-keziz/mouayed-keziz-portfolio",
+            image: mock6
         }
     ]
 }
